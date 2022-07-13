@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input表单元素</title>
+</head>
+<body>
+    <form action="XXX.php" method="get">
+        username: <input type="text" name="username" value="username" maxlength="8"> <br>
+        password: <input type="password" name="password" value="password"> <br>
+        <!-- 单选radio name要相同 -->
+        sex: man<input type="radio" name="sex" value="man" checked="checked"> woman<input type="radio" name="sex" value="man"> <br>
+        <!-- 多选checkbox -->
+        hobby: hobby1 <input type="checkbox" name="hobby"> hobby2 <input type="checkbox" name="hobby" checked="checked"> hobby3 <input type="checkbox" name="hobby">
+        <br>
+        <input type="submit" value="resign now!">
+        <input type="reset">
+        <br>
+        <input type="button" value="get more info">
+        <br>
+        upload images: <input type="file">
+        <br>
+        <label for="sex1">男</label>
+        <input type="radio" name="sex1" id="sex1">
+        <br>
+        <label for="TXT"> 用户名：<input id="TXT"></label>
+        <br>
+        home:
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+        <br><br>
+        留言：
+        <textarea>text</textarea>
+    </form> 
+        
+</body>
+</html>
